@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+   width: 100%;
+   height: 100vh;
+    overflow-y:hidden ;
+   overflow-x:hidden;
+   background-image: url(https://tse1.mm.bing.net/th?id=OIP.cchzTbnxBk4eRl9G3MQQ9wHaE6&pid=Api&P=0);
+    
+
+
+
+}
+.quadrado{
+    background-color: white;
+    width: 30%;
+    height: 60%;
+    position: relative;
+    left: 35%;
+    top: 10%;
+
+}
+.login{
+position: relative;
+display: flex;
+align-items: center;
+flex-direction: column;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+#Registrar{
+    cursor: pointer;
+}
+#logar{
+cursor: pointer;
+
+}
+.navbar{
+    z-index: 1;
+    position: sticky;
+    background-color: #1D1D1D;
+    color:red;
+    width: 100%;
+    height: 60px;
+    left: 30%;
+    display: flex;
+    flex-direction: row;
+    font-style: normal;
+    justify-content: space-evenly;
+    background-size: cover;
+    top:0%;
+    margin: 0%;
+    
+}
+
+#pedais:hover{
+    cursor: pointer;
+transform: scale(1.05);
+transition: transform .2s;
+}
+#Palhetas:hover{
+    cursor: pointer;
+transform: scale(1.05);
+transition: transform .2s;}
+#les:hover{
+    cursor: pointer;
+transform: scale(1.05);
+transition: transform .2s;
+}
+.Redes{
+    position: relative;
+    background-color: #1D1D1D;
+    color:#1D1D1D;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}    
+#pedais{
+    list-style: none;
+}
+#Quem{
+    list-style: none;
+}
+#Guitarras{
+    list-style: none;
+}

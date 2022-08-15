@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+        box-sizing: border-box;
+        height: 100px;
+        background-color: rgb(255, 255, 255);
+       width: 100%;
+       height: 100vh;
+      
+       overflow-x:hidden;
+
+}
+
+    
+  
+    #Guitarras:hover{
+        cursor: pointer;
+    transform: scale(1.05);
+transition: transform .2s;
+
+
+    }
+
+    #pedais:hover{
+        cursor: pointer;
+    transform: scale(1.05);
+transition: transform .2s;
+    }
+
+    #Palhetas:hover{
+        cursor: pointer;
+    transform: scale(1.05);
+transition: transform .2s;
+    }
+    #Quem:hover{
+        cursor: pointer;
+    transform: scale(1.05);
+transition: transform .2s;}
+
+.navbar{
+    z-index: 1;
+    position: sticky;
+    background-color: #1D1D1D;
+    color:red;
+    width: 100%;
+    height: 60px;
+    left: 30%;
+    display: flex;
+    flex-direction: row;
+    font-style: normal;
+    justify-content: space-evenly;
+    background-size: cover;
+    top:0%;
+    margin: 0%;
+    
+}
+#les:hover{
+    cursor: pointer;
+transform: scale(1.05);
+transition: transform .2s;
+}
+
+.logo{
+position: relative;
+display: flex;
+justify-content: center;
+top: 60px;
+height: 100px;
+
+
+}
+.textinho {
+    position: relative;
+    top: 100px;
+    left: 450px;
+    font-size: xx-small;
+    color: red;
+    border: red;
+    
+    
+}
+
+.Yui{
+position: relative;
+display: flex;
+justify-content: center;
+left: 250px;
+top: 50px;
+}
+
+.Redes{
+    position: relative;
+    background-color: #1D1D1D;
+    color:#1D1D1D;
+    height: auto;
+    top: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+
+}
+#bar {
+   position: absolute;
+   font-size: x-small;
+    left: 200px;
+   font-family: Arial, Helvetica, sans-serif;
+   top: 70%;
+}
+
+
+#bar2 {
+    position: absolute;
+    font-size: x-small;
+     left: 800px;
+  top: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+.combos {
+   
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+
+ }
+
+
+#Guitarras {
+position: relative;
+left: 30%;
+font-family: Arial, Helvetica, sans-serif;
+list-style: none;
+}
+#combo {
+
+    display: flex;
+    justify-content: center;
+}
+.guitars {
+position: relative;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: flex-start;
+
+
+}
+#star {
+    position: relative;
+top: 50px;
+
+}
+#tele3 {
+
+    position: relative;
+    top: 50px;
+}
+#tele2 {
+    position: relative;
+    top: 10px;
+
+}
+#strato {
+    position: relative;
+    top: 60px;
+     border-width: 8px;
+
+}
+#strato2{
+    position: relative;
+    top: 50px;
+
+}
+#telecaster1{
+    position: relative;
+    top: 50px;
+}
+
+#Ofertas {
+position: relative;
+align-items: center;
+
+
+}
+#pedais{
+    position: relative;
+    left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+.pedals{
+    position: relative;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: flex-start;
+}
+#Quem{
+    list-style: none;
+}
+
+
+
+
+.pedals {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  
+
+
+}
+#Pedais{
+display: flex;
+justify-content: center;
+
+
+}
+#Pedais:hover{
+    cursor: pointer;
+transform: scale(1.05);
+transition: transform .2s;}
+
+#Compressor2{
+position: relative;
+top: 60%;
+}
+
+#preços{
+position: relative;
+display: flex;
+left: 30%;
+
+
+}

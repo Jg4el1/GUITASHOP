@@ -1,0 +1,119 @@
+.textão{
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+
+}body{
+    margin: 0;
+    box-sizing: border-box;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+   width: 100%;
+   height: 100vh;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/CCarsonChiliPeppersVoodooExperience2006.jpg/440px-CCarsonChiliPeppersVoodooExperience2006.jpg);
+   overflow-x:hidden;
+    
+}
+
+.navbar{
+    z-index: 1;
+    position: sticky;
+    background-color: #1D1D1D;
+    color:red;
+    width: 100%;
+    height: 60px;
+    left: 30%;
+    display: flex;
+    flex-direction: row;
+    font-style: normal;
+    justify-content: space-evenly;
+    background-size: cover;
+    top:0%;
+    margin: 0%;
+    
+
+
+}
+
+#Guitarras:hover{
+    cursor: pointer;
+transform: scale(1.05);
+transition: transform .2s;
+
+
+}
+
+#pedais:hover{
+    cursor: pointer;
+transform: scale(1.05);
+transition: transform .2s;
+}
+
+
+
+#Quem:hover{
+    cursor: pointer;
+transform: scale(1.05);
+transition: transform .2s;}
+
+
+
+
+
+.Redes{
+    position: relative;
+    background-color: #1D1D1D;
+    color:#1D1D1D;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    top: 90%;
+}    
+
+#les:hover{
+    cursor: pointer;
+transform: scale(1.05);
+transition: transform .2s;
+}
+.textão{
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+position: relative;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+top:10%;
+background-color: red;
+
+}
+
+#Caixa{
+position: relative;
+top: 50%;
+
+left: 20%;
+
+}
+#Digite{
+position: relative;
+top: 49%;
+left: 20%;
+color: white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#botão{
+position:relative ;
+top: 60%;
+left: 15%;
+
+}
+#pedais{
+    list-style: none;
+}
+#Quem{
+    list-style: none;
+}
+#Guitarras{
+    list-style: none;
+}

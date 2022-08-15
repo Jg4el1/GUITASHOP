@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+   width: 100%;
+   height: 100vh;
+  
+   overflow-x:hidden;
+    
+}
+
+.navbar{
+    z-index: 1;
+    position: sticky;
+    background-color: #1D1D1D;
+    color:red;
+    width: 100%;
+    height: 60px;
+    left: 30%;
+    display: flex;
+    flex-direction: row;
+    font-style: normal;
+    justify-content: space-evenly;
+    background-size: cover;
+    top:0%;
+    margin: 0%;
+   
+
+
+}
+#direct {
+
+display: grid;
+grid-template-columns: 50% 50%;
+font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+#Guitarras{
+list-style: none;
+
+}
+.dada:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+transition: transform .2s;
+
+}
+.logo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 10%;
+    height: 10%;
+    right: 5%;
+    
+    }
+    .textinho {
+        position: relative;
+        top: 10%;
+        left: 30%;
+        display: flex;
+        font-size: xx-small;
+        color: red;
+        border: red;
+        
+        
+    }
+    
+    #yui{
+   
+    display: flex;
+    justify-content: center;
+    left: 15%;
+    top: 2%;
+    }
+    #Guitarras:hover{
+        cursor: pointer;
+    transform: scale(1.05);
+transition: transform .2s;
+
+
+    }
+
+    #pedais:hover{
+        cursor: pointer;
+    transform: scale(1.05);
+transition: transform .2s;
+    }
+
+
+    
+    #Quem:hover{
+        cursor: pointer;
+    transform: scale(1.05);
+transition: transform .2s;}
+
+
+
+
+
+    .Redes{
+        position: relative;
+        background-color: #1D1D1D;
+        color:#1D1D1D;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }    
+
+    #les:hover{
+        cursor: pointer;
+    transform: scale(1.05);
+transition: transform .2s;
+    }
+#REGISTRAR{
+    color: #1D1D1D;
+    text-decoration: none;
+}
+
+#pedais{
+    list-style: none;
+}
+#Quem{
+    list-style: none;
+}
